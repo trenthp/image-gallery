@@ -1,6 +1,22 @@
+body {
+	background-image: url("../img/transp_bg.png");
+	background-attachment: fixed;
+	color: #fff;
+}
+
+
+
+
+/*-------------------------------
+	Non-Orbit-Slider Header
+-------------------------------*/
 .parfait1 {
-	background: #4a4a4a;
+	background: rgba(0,0,0,.5);
 	padding: 50px 0;
+}
+
+.top-bar .name h1 a {
+	color: rgb(255,75,75);
 }
 
 header [class*="block-grid-"] > li{
@@ -25,20 +41,92 @@ header p {
 }
 
 header h3,
-header h5 {
+header h6 {
 	background: rgba(0,0,0,.5);
 	width: 100%;
 	padding: 10px;	
 	position: absolute;
 	top: 50%;
 	color: #fff;
+	-webkit-transition: .25s;
+	-moz-transition: .25s;
+	transition: .25s;
+}
+
+header h3:hover,
+header h6:hover {
+	background: rgba(100,200,200,.7);
 }
 
 header h2 {
 	padding: 30px;
 }
 
+
+
+
+/*-------------------------------
+			Grid/List
+-------------------------------*/
 .parfait2 {
-	background: #8a8a8a;
+	background: rgba(0,0,0,.8);
 	padding: 50px 0;
 }
+
+.button {
+	background: rgb(255,75,75);
+}
+
+.button:hover {
+	background: rgb(100,200,200);
+}
+
+.large-6,
+.large-3 {
+	-moz-transition: .25s .5s;
+	-webkit-transition: .25s .5s;
+	transition: .25s .5s;
+}
+
+article a {
+	color: rgb(100,200,200);
+}
+
+article a:hover {
+	color: rgb(255,75,75);
+}
+
+.th {
+	width: 250px;
+}
+
+
+
+
+/*-------------------------------
+		Gallery Pages
+-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
