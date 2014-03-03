@@ -27,3 +27,16 @@
 		$('p').show();
 
 	});
+
+
+	$('.photoset-grid-basic').photosetGrid();
+
+
+
+
+
+
+
+
+
+

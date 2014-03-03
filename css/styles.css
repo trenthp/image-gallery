@@ -106,17 +106,24 @@ article a:hover {
 /*-------------------------------
 		Gallery Pages
 -------------------------------*/
+.photolist h2 {
+	background: rgba(0,0,0,.5);
+	color: rgb(255,75,75);
+}
 
+.photolist h4 {
+	color: rgb(100,200,200);
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
 
+.photolist .large-6 {
+	background: rgba(0,0,0,.5);
+}
 
-
-
-
-
-
-
-
-
+.photolist span h4 {
+	opacity: 0;
+}
 
 
 
